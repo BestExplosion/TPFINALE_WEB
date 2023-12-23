@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple position sticky</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/Formulaire.css">
+    <link rel="stylesheet" href="css/Tableau.css">
+    <link rel="stylesheet" href="css/Article.css">
+    <link rel="stylesheet" href="css/Galerie.css">
+    <link rel="stylesheet" href="css/Accueil.css">
+</head>
+<body id="num0">
+    <header>
+        <h1>TP2</h1>
+        <img class = "logo" src="images/Logo.png" alt="logo T1" width="100" height="50">
+        <div class="search-container">
+          <div class="input-container">
+              <input type="text" placeholder="Rechercher">
+              <button type="submit">Recherche</button>
+          </div>
+      </div>
+    </header>
+    <nav>
+            <a href="#Accueil">Accueil</a>
+            <a href="#Inscription">Inscription</a>
+            <a href="#Tableau">Tableau</a>
+            <a href="#Article">Article</a>
+            <a href="#Galerie">Galerie</a>
+    </nav>
+    <!--Section Accueil-->
+    <section id="Accueil">
+      <div class="accueil-content">
+          <img src="images/Accueil.webp" alt="" width="1300" height="700">
+           <!--Divison pour modifier les textes-->
+          <div class="accueil-text">
+              <p>TP2</p>
+              <p>T1 FIGHTING</p>
+              <p>Johnny Tan</p>
+              <p>582-1W1 – Mise en page Web</p>
+              <p>Techniques d’intégration multimédia</p>
+              <p>Collège de Maisonneuve</p>
+              <p>https://github.com/BestExplosion/1W1-Web-TPFinale.git</p>
+              <p>Automne 2023</p>
+          </div>
+      </div>
+    </section>
+     <!--Section pour la formes-->
+    <section id="Inscription">
+        <h3>Devenez membre du clan T1</h3>
+         <!--Div pour le contenu générale du forme-->
+        <div class="main-wrapper">
+            <div class="form-wrapper">
+              <form>
+                  <div class="input-flex">
+                    <div>
+                        <label for="firstname" class="form-label"> Prénom </label>
+                        <input type="text"
+                        name="firstname"
+                        id="firstname"
+                        placeholder="Votre prénom"
+                        class="form-input"
+                        />
+                    </div>
+                    <div>
+                        <label for="lastname" class="form-label"> Nom </label>
+                        <input
+                        type="text"
+                        name="lastname"
+                        id="lastname"
+                        placeholder="Votre nom"
+                        class="form-input"
+                        />
+                    </div>
+                  </div>
+                  <div class="input-flex">
+                    <div>
+                        <label for="email" class="form-label">E-Mail </label>
+                        <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Votre Courriel"
+                        class="form-input"
+                        />
+                    </div>
+                    <div>
+                        <label for="phone" class="form-label"> Téléphone </label>
+                        <input
+                        type="text"
+                        name="phone"
+                        id="phone"
+                        placeholder="(000) 000-0000"
+                        class="form-input"
+                        />
+                    </div>
+                  </div>
+                  <div class="input-radio-wrapper">
+                      <label for="jobtitle" class="form-label"> Quelle département cherchiez-vous? </label>
+          
+                      <div class="radio-flex">
+                        <div class="radio-group">
+                          <label class="radio-label">
+                            <input class="input-radio" type="radio">
+                            Web Design
+                            <span class="radio-checkmark"></span>
+                          </label>
+                        </div>
+          
+                        <div class="radio-group">
+                          <label class="radio-label">
+                            <input class="input-radio" type="radio">
+                            Graphics Design
+                            <span class="radio-checkmark"></span>
+                          </label>
+                        </div>
+          
+                        <div class="radio-group">
+                          <label class="radio-label">
+                            <input class="input-radio" type="radio">
+                            Logo Design
+                            <span class="radio-checkmark"></span>
+                          </label>
+                        </div>
+                        <div class="radio-group">
+                          <label class="radio-label">
+                            <input class="input-radio" type="radio">
+                            Autres:
+                            <span class="radio-checkmark"></span>
+                          </label>
+                        </div>
+                      </div>
+                  </div>
+                  <div>
+                      <label for="message" class="form-label"> Autres : </label>
+                      <textarea
+                          rows="6"
+                          name="message"
+                          id="message"
+                          placeholder="Vos options"
+                          class="form-input"
+                      ></textarea>
+                  </div>
+                   <!--Boutton-->
+                  <button class="btn"> Envoyer</button>
+              </form>
+            </div>
+          </div>
+    </section>
+     <!--Section du tableau-->
+    <section id="Tableau">
+        <table class="tableau">
+          <caption>Dates de visite</caption>
+          <tr>
+              <th></th>
+              <th>Lundi</th>
+              <th>Mardi</th>
+              <th>Jeudi</th>
+              <th>Vendredi</th>
+          </tr>
+          <tr>    
+            <th>5 janvier 2023</th>
+            <td>10:00 AM - 5:00 PM</td>
+            <td>11:00 AM - 6:30 PM</td>
+            <td>9:30 AM - 4:45 PM</td>
+            <td>12:00 PM - 7:00 PM</td>
+          </tr>
+          <tr>
+            <th>20 février 2023</th>
+            <td>1:00 PM - 8:00 PM</td>
+            <td>10:30 AM - 5:15 PM</td>
+            <td>9:00 AM - 4:30 PM</td>
+            <td>11:30 AM - 6:45 PM</td>
+          </tr>
+          <tr>
+            <th>10 mars 2023</th>
+            <td>2:00 PM - 9:00 PM</td>
+            <td>9:30 AM - 4:45 PM</td>
+            <td>11:00 AM - 6:30 PM</td>
+            <td>10:30 AM - 5:15 PM</td>
+          </tr>
+          <tr>
+            <th>25 avril 2023</th>
+            <td>12:30 PM - 7:30 PM</td>
+            <td>11:00 AM - 6:30 PM</td>
+            <td>10:00 AM - 5:00 PM</td>
+            <td>1:30 PM - 8:30 PM</td>
+        <tr>
+          <th>15 mai 2023</th>
+          <td>3:00 PM - 10:00 PM</td>
+          <td>1:30 PM - 8:30 PM</td>
+          <td>2:30 PM - 9:30 PM</td>
+          <td>12:00 PM - 7:00 PM</td>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="5">données en date du 23 novembre 2023</td>
+        </tr>
+        </tfoot>
+
+      </table>
+    </section>
+     <!--Section Article-->
+    <section id="Article">
+        <h2>CHEMIN VERS LA VICTOIRE</h2>
+        <div class="article_flex">
+          <img id="img_article" src="images/Article.jpg" alt="" width="1600" height="500">
+          <h3>LE CHEMIN D'OR</h3>
+          <article>T1 a remporté le championnat du monde de League of Legends en battant Weibo Gaming 3-0 en finale pour s'assurer un quatrième titre mondial.
+            T1 a totalement démantelé Weibo Gaming en finale, ce qui était une fin un peu décevante pour un tournoi solide. T1 avait simplement l'air un cran au-dessus de ses adversaires, prenant les bonnes décisions au bon moment pour remporter des victoires assez faciles sur chaque carte.Alors que les Mondiaux se déroulaient en Corée du Sud, T1 était le favori de sa ville natale au Gocheok Sky Dome de Séoul. L'équipe était la seule de la région à atteindre la demi-finale de la compétition, les trois autres équipes venant toutes de la ligue LPL en Chine. </article>
+
+           <article> Pour se qualifier pour la finale T1, il a fallu des victoires assez convaincantes contre deux équipes chinoises dans la phase de bracket, sous la forme de LNG Esports,      qu'ils ont battu 3-0 et de JD Gaming qu'ils ont battu 3-1. Cela a organisé une finale contre une autre équipe chinoise dans Weibo Gaming. Beaucoup en dehors de la Corée considéraient les équipes chinoises comme les favorites pour remporter l'événement, donc le fait que T1 en ait éliminé autant montre à quel point ils étaient forts aux Mondiaux.
+            Cette victoire permet à l'organisation T1 de remporter son quatrième trophée du monde et son premier depuis 2016. L'organisation a atteint deux finales depuis lors, mais a perdu les deux, y compris une défaite difficile l'année dernière où elle s'est inclinée 3-2 contre DRX. Bien qu'ils ne puissent jamais être comptés, il y avait de fortes chances qu'ils ne participent même pas aux Mondiaux cette année après que le joueur vedette Lee "Faker" Sang-hyeok s'est blessé au milieu de la saison.</article>
+        </div>
+    </section>
+     <!--Section Galerie-->
+    <section id="Galerie">
+        <h2>NOS JOUEURS</h2>
+          <div>
+          <ul class="images">
+            <figure class="galerie__figure">
+            <img src="images/Faker.jpg" width="350" height="250">
+            <figcaption class="galerie__caption">Faker</figcaption>
+            </figure> 
+            <figure class="galerie__figure">    
+            <img src="images/Zeus.jpg" width="350" height="250">
+            <figcaption class="galerie__caption">Zeus</figcaption>
+            </figure>
+            <figure class="galerie__figure">
+            <img src="images/Oner.jpg" width="350" height="250">
+            <figcaption class="galerie__caption">Oner</figcaption>
+            </figure>
+            <figure class="galerie__figure"> 
+            <img src="images/Keria.jpg" width="350" height="250">
+            <figcaption class="galerie__caption">Keria</figcaption>
+            </figure>
+            <figure class="galerie__figure"> 
+            <img src="images/Gumayusi.jpg" width="350" height="250">
+            <figcaption class="galerie__caption">Gumayusi</figcaption>
+            </figure>  
+            <figure class="galerie__figure">
+            <img src="images/Roach.jpg" width="350" height="250">
+            <figcaption class="galerie__caption">Coach Roach</figcaption>
+            </figure>  
+          </ul>
+          </div>
+    </section>
+<footer>
+        <div class="row">
+            <ul>
+                <li><a href="#">Contactez-nous</a></li>
+                <li><a href="#">Nos Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+        <!-- Additional content -->
+        <div class="row">
+            <h3>Collège Maisonneuve</h3>
+            <p>3800 Sherbrooke St E, Montreal, Quebec H1X 2A2</p>
+        </div>
+        <div class="row">
+          <div class="links">
+            <h3>Liens importants</h3>
+              <ul>
+                <li><a href="https://www.t1.gg/">T1 site officiel</a></li>
+                <li><a href="https://github.com/BestExplosion"> Ma page Github</a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="About">
+            <h3>Intégration Multimédia</h3>
+            <p>Explore des axes de formation principaux : la création de jeux vidéos, la programmation Web et la création d’environnements interactifs</p>
+          </div>
+        </div>
+        <div class="row">
+          <h3>Sociaux</h3>
+           <!--Lien pour les photos des réseaux sociaux-->
+            <div class="sociaux">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i class="fa fa-instagram" style="font-size:24px"></i>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i class="fa fa-twitter" style="font-size:24px"></i>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+          </div>
+        </div>
+         <!--Message pour les droits d'auteurs-->
+        <div class="row">
+          Avis de confidentialité | Privacy Notice || conçu par: Johnny Tan
+          Toutes les images et le texte utilisés dans ce [projet/site/document] proviennent de leurs auteurs et créateurs respectifs. Nous ne revendiquons pas la propriété de ces images ou de ce texte, sauf indication contraire. Tous les droits d'auteur et droits de propriété intellectuelle appartiennent à leurs créateurs d'origine. Une attribution et des crédits appropriés sont fournis chaque fois que possible. Si vous êtes le propriétaire d'un contenu utilisé ici et souhaitez qu'il soit supprimé ou crédité différemment, veuillez nous contacter.
+      </div>
+</footer>
+</html>

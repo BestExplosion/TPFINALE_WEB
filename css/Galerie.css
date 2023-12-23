@@ -1,0 +1,33 @@
+
+#Galerie h2 {
+    text-align: center;
+}
+
+
+.images{
+	display: flex;
+	flex-wrap: wrap;
+    padding-top:100px;
+	justify-content: center;
+	gap: 50px;
+    z-index: 9;
+
+}
+  .galerie__figure{
+  transform: scale(1);
+  transition: all .5s;
+}
+
+.galerie__figure:hover{
+   
+    transform: scale(1.1);
+}
+.galerie__figure:hover  .galerie__img {
+     filter :none;
+}
+
+
+/* figcaption */
+.galerie__caption{
+    color: white;
+}

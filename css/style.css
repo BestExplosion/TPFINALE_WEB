@@ -1,0 +1,199 @@
+/* Integration de polices\*/
+@font-face {
+    font-family: Valorant;
+    src: url(../Polices/valorant/Valorant\ Font.ttf);
+  }
+  @font-face {
+    font-family: Oswald;
+    src: url(../Polices//Oswald.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    color: white;
+    font-family: Oswald;
+    background-color: white;
+}
+/* Css pour les 3 zones*/
+header,nav, footer{
+    min-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    z-index: 12;
+	background-color:black;
+	
+}
+/* Css pour le header */
+header{
+    height: 10%;
+    z-index: 12;
+    display: flex;
+    flex-direction: row;
+    padding : 2vh 2vw;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}   
+
+header a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 1vw;
+}
+
+header a:hover{
+    color: lightblue;
+}
+/* Logo*/
+.logo{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12%;
+}
+/* Css pour la zone de recherche */
+.search-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.input-container {
+    display: flex;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    margin-left: -1px; 
+}
+
+/* Style supplémentaire pour un aspect agréable */
+button:hover {
+    background-color: goldenrod;
+}
+/* Css pour la navigation */
+nav{
+    position: sticky;
+    top:0%;
+	height: 50px;
+	justify-content: space-around;
+    z-index: 10;
+    color: red;
+    font-family: valorant;
+}
+nav a{
+	color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+nav a:hover{
+	background-color: red;
+    padding: 16px 30px;
+}
+
+/*modification générale des sections*/
+#Accueil, #Inscription, #Tableau, #Article, #Galerie{
+    background-color: red;
+	color:black;
+	width: 100vw;
+	height: 100vh;
+	min-width: 500px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+/*Section footer */
+footer {
+    background-color:black;
+    color: white;
+    height: 200px;
+    z-index: 10;
+}
+
+footer .row {
+    width: 100%;
+    margin: 1% 0% 1%;
+    color: gray;
+    font-size: 0.8em;
+}
+
+footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+footer .row a:hover {
+    color: #fff;
+}
+
+footer .row ul {
+    width: 100%;
+}
+
+footer .row ul li {
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+/* Additional styles for the content sections */
+footer .row h3 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+footer .row p {
+    margin: 5px;
+    text-align: center;
+}
+.About{
+    margin-top: 10%;
+}
+.sociaux{
+    margin-left: 40%;
+}
+.links{
+    margin-top: 5%;
+    text-align: center;
+}
+/*modification autes*/
+h3 {
+    display: flex;
+    justify-content: center;
+}
