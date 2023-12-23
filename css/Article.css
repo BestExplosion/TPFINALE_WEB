@@ -20,7 +20,7 @@ h2 {
 
 #img_article {
     width: 100%;
-    max-width: 800px; /* Adjusted to make the image larger */
+    max-width: 800px; 
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -28,5 +28,5 @@ h2 {
 article {
     max-width: 50%;
     margin-bottom: 20px;
-    color: #fff; /* White text */
+    color: white; 
 }

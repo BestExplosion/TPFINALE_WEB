@@ -6,7 +6,7 @@
     border: 1px solid black;
     text-align: center;
     margin-top: 50px;
-    font-size: 2em; /* Add this line to set the font size */
+    font-size: 2em;
 }
 
 .tableau caption {
@@ -27,5 +27,5 @@
     color: red;
 }
 .tableau tfoot {
-    height: 80px; /* Adjust the height as needed */
+    height: 80px; 
 }

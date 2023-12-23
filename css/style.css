@@ -1,7 +1,7 @@
 /* Integration de polices\*/
 @font-face {
     font-family: Valorant;
-    src: url(../Polices/valorant/Valorant\ Font.ttf);
+    src: url(../Polices/Valorant\ Font.ttf);
   }
   @font-face {
     font-family: Oswald;
@@ -171,7 +171,7 @@ footer .row a i {
     margin: 0% 1%;
 }
 
-/* Additional styles for the content sections */
+/* styles additionel pour le footer */
 footer .row h3 {
     color: #fff;
     font-size: 1.5em;
