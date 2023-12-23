@@ -1,2 +1,2 @@
 <h1>Lien pour le site web</h1>
-<p>https://github.com/BestExplosion/1W1_TPFinale</p>
+<p>https://bestexplosion.github.io/TPFINALE_WEB/</p>
